@@ -1,0 +1,40 @@
+<h3> List of Categories </h3>
+
+<div>
+    <ul>
+        <li>
+        <button ng-click="$ctrl.filterComputer()"  id="computer" class="button-link">Computers</button></li>
+        <li>
+        <button ng-click="$ctrl.filterCellPhone()" id="cellPhone" class="button-link">Cell Phones</button></li>
+    </ul>
+</div>
+
+<div>
+    <table border="1">
+        <thead>
+            <tr class='form-group'>
+                <th ts-criteria="ID">ID</th>
+                <th ts-criteria="BRAND">BRAND</th>
+                <th ts-criteria="MODEL">MODEL</th>
+                <th ts-criteria="PRICE">PRICE($)</th>
+                <th ts-criteria="OPTIONS">OPTIONS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="item in $ctrl.items">
+                <td>{{item.id}}</td>
+                <td>{{item.brand}}</td>
+                <td>{{item.model}}</td>
+                <td>{{item.price | currency}}</td>
+                <td>
+                    <input type="button" value="Editar" />
+                    <input type="button" value="Remover" />
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+<div ng-show="$ctrl.error">
+    Error:{{$ctrl.error}}
+</div>

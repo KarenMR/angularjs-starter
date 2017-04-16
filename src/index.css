@@ -1,3 +1,35 @@
 body {
-  background-color: lightgrey;
+  background-color:mintcream;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+.form-group{
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.form-actions{
+  font-size: 11px;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+
+.list-item{
+display: table-column-group;
+}
+
+.item{
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.button-link{
+  background:none; 
+  color:inherit;
+     border:none; 
+     padding:0
 }

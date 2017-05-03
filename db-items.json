@@ -1,39 +1,53 @@
 {
-    "items": [
-        {
-            "id": 1,
-            "brand": "DELL",
-            "model": "Alienware AW15R3",
-            "price": "1500",
-            "category": "computer"
-        },
-        {
-            "id": 2,
-            "brand": "APPLE",
-            "model": "MacBook Pro Touch Bar 512GB",
-            "price": "1999",
-            "category": "computer"
-        },
-        {
-            "id": 3,
-            "brand": "APPLE",
-            "model": "MacBook Pro Touch Bar 256GB",
-            "price": "1799",
-            "category": "computer"
-        },
-        {
-            "id": 4,
-            "brand": "DELL",
-            "model": "Alienware AW15R2",
-            "price": "1560",
-            "category": "computer"
-        },
- {
-            "id": 5,
-            "brand": "APPLE",
-            "model": "6S 128GB",
-            "price": "900",
-            "category": "cellPhone"
-        }
-    ]
+  "items": [
+    {
+      "id": 1,
+      "brand": "DELL",
+      "model": "Alienware AW15R3",
+      "price": "1500",
+      "category": "computer"
+    },
+    {
+      "id": 2,
+      "brand": "APPLE",
+      "model": "MacBook Pro Touch Bar 512GB",
+      "price": "1999",
+      "category": "computer"
+    },
+    {
+      "id": 3,
+      "brand": "APPLE",
+      "model": "MacBook Pro Touch Bar 256GB",
+      "price": "1799",
+      "category": "computer"
+    },
+    {
+      "id": 4,
+      "brand": "DELL",
+      "model": "Alienware AW15R2",
+      "price": "1560",
+      "category": "computer"
+    },
+    {
+      "id": 5,
+      "brand": "APPLE",
+      "model": "6S 128GB",
+      "price": "900",
+      "category": "cellPhone"
+    },
+    {
+      "id": 6,
+      "brand": "SAMSUNG",
+      "model": "GALAXY 7 128GB",
+      "price": "700",
+      "category": "cellPhone"
+    },
+    {
+      "id": 7,
+      "brand": "HTC",
+      "model": "M10 128GB",
+      "price": "750",
+      "category": "cellPhone"
+    }
+  ]
 }

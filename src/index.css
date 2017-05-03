@@ -33,3 +33,10 @@ display: table-column-group;
      border:none; 
      padding:0
 }
+
+.editLabel{
+  font-size: 11px;
+}
+.editText{
+  color: purple;
+}

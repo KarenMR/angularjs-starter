@@ -15,7 +15,7 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
     })
 
     .state('login', {
-      parent:'app',
+      parent: 'app',
       url: 'login',
       component: 'appLogin'
     })
@@ -26,8 +26,13 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
     })
 
     .state('categories', {
-      parent:'app',
+      parent: 'app',
       url: 'categories',
       component: 'appCategories'
+    })
+    .state('edit', {
+      parent: 'app',
+      url: 'edit/:id',
+      component: 'appEdit'
     })
 }
